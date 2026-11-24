@@ -1,0 +1,49 @@
+name: Update profile card
+
+on:
+  schedule:
+    - cron: "30 0 * * *"   # daily, 06:00 IST
+  workflow_dispatch:        # "Run workflow" button in the Actions tab
+  push:
+    branches: [main]
+    paths:
+      - "ascii.txt"
+      - "ascii_tone.txt"
+      - "scripts/**"
+      - ".github/workflows/**"
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Fetch stats and render SVGs
+        env:
+          # Optional repo secret ACCESS_TOKEN (classic PAT with read:user) adds private
+          # contributions to the heatmap. Falls back to the built-in token.
+          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN || github.token }}
+          USER_NAME: ${{ github.repository_owner }}
+        run: python scripts/fetch_and_render.py
+
+      - name: Render PNGs
+        run: |
+          sudo apt-get install -y -qq fonts-dejavu-core
+          pip install -q playwright
+          python -m playwright install --with-deps chromium
+          python scripts/svg_to_png.py
+
+      - name: Commit if changed
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add dark_mode.svg dark_mode.png contributions.svg contributions.png data/stats.json
+          git diff --cached --quiet || git commit -m "Update profile card"
+          git push
