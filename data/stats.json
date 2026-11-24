@@ -7,111 +7,300 @@
  "followers": 2,
  "following": 0,
  "languages": {
-  "Batchfile": {
-   "bytes": 2210,
-   "color": "#C1F12E"
-  },
-  "CSS": {
-   "bytes": 170785,
-   "color": "#663399"
-  },
-  "Dockerfile": {
-   "bytes": 3803,
-   "color": "#384d54"
-  },
-  "HCL": {
-   "bytes": 291,
-   "color": "#844FBA"
-  },
-  "HTML": {
-   "bytes": 170857,
-   "color": "#e34c26"
+  "Python": {
+   "bytes": 1781837,
+   "color": "#3572A5"
   },
   "JavaScript": {
    "bytes": 467702,
    "color": "#f1e05a"
   },
-  "Jupyter Notebook": {
-   "bytes": 6351063,
-   "color": "#DA5B0B"
+  "CSS": {
+   "bytes": 170785,
+   "color": "#663399"
   },
-  "Open Policy Agent": {
-   "bytes": 472,
-   "color": "#7d9199"
+  "HTML": {
+   "bytes": 170857,
+   "color": "#e34c26"
   },
-  "Python": {
-   "bytes": 1760729,
-   "color": "#3572A5"
-  },
-  "Shell": {
-   "bytes": 1334,
-   "color": "#89e051"
+  "TypeScript": {
+   "bytes": 296651,
+   "color": "#3178c6"
   },
   "Solidity": {
    "bytes": 7874,
    "color": "#AA6746"
   },
-  "TypeScript": {
-   "bytes": 296651,
-   "color": "#3178c6"
+  "Jupyter Notebook": {
+   "bytes": 6351063,
+   "color": "#DA5B0B"
+  },
+  "Batchfile": {
+   "bytes": 2210,
+   "color": "#C1F12E"
+  },
+  "Dockerfile": {
+   "bytes": 3803,
+   "color": "#384d54"
+  },
+  "Shell": {
+   "bytes": 1334,
+   "color": "#89e051"
+  },
+  "Open Policy Agent": {
+   "bytes": 472,
+   "color": "#7d9199"
+  },
+  "HCL": {
+   "bytes": 291,
+   "color": "#844FBA"
   }
  },
  "recent_repos": [
   {
-   "name": "Spend-Contract-Leakage-Analyzer-Lite-",
-   "language": "Python",
+   "name": "Chiga36",
    "description": "",
+   "language": "Python",
+   "stars": 0,
+   "pushed_at": "2026-11-24"
+  },
+  {
+   "name": "Spend-Contract-Leakage-Analyzer-Lite-",
+   "description": "",
+   "language": "Python",
    "stars": 0,
    "pushed_at": "2026-11-23"
   },
   {
    "name": "2D-Portfolio",
-   "language": "HTML",
    "description": "",
+   "language": "HTML",
    "stars": 0,
    "pushed_at": "2026-10-29"
   },
   {
    "name": "AI-enabled-Daily-fit-Tracker",
-   "language": "TypeScript",
    "description": "",
+   "language": "TypeScript",
    "stars": 0,
    "pushed_at": "2026-09-11"
   },
   {
    "name": "Random-AIML-project",
-   "language": null,
    "description": "",
+   "language": null,
    "stars": 0,
    "pushed_at": "2026-07-30"
   },
   {
    "name": "major-project",
-   "language": "Python",
    "description": "",
+   "language": "Python",
    "stars": 0,
    "pushed_at": "2026-04-03"
   },
   {
    "name": "fin-agenti",
-   "language": "Python",
    "description": "",
+   "language": "Python",
    "stars": 0,
    "pushed_at": "2026-03-30"
   },
   {
    "name": "ai-shopping-agent-architecture",
-   "language": null,
    "description": "",
+   "language": null,
    "stars": 0,
    "pushed_at": "2026-03-24"
   },
   {
    "name": "IISc-VGA",
-   "language": "Python",
    "description": "",
+   "language": "Python",
    "stars": 0,
    "pushed_at": "2026-03-24"
+  },
+  {
+   "name": "RAG-tutorials",
+   "description": "",
+   "language": "Jupyter Notebook",
+   "stars": 0,
+   "pushed_at": "2026-03-19"
+  },
+  {
+   "name": "resume-parser-project",
+   "description": "",
+   "language": "Python",
+   "stars": 0,
+   "pushed_at": "2026-01-21"
+  },
+  {
+   "name": "document-ai-microservices",
+   "description": "",
+   "language": "Python",
+   "stars": 0,
+   "pushed_at": "2025-12-15"
+  },
+  {
+   "name": "compiler-design---Simple-Variable-Declaration-Analyzer",
+   "description": "",
+   "language": "Python",
+   "stars": 0,
+   "pushed_at": "2025-12-10"
+  },
+  {
+   "name": "img_doc",
+   "description": "",
+   "language": "Python",
+   "stars": 0,
+   "pushed_at": "2025-11-28"
+  },
+  {
+   "name": "image_creation_via_docker",
+   "description": "",
+   "language": "Python",
+   "stars": 0,
+   "pushed_at": "2025-11-20"
+  },
+  {
+   "name": "motion-canvas",
+   "description": "",
+   "language": "TypeScript",
+   "stars": 0,
+   "pushed_at": "2025-09-12"
+  },
+  {
+   "name": "character-background-blending",
+   "description": "",
+   "language": "Python",
+   "stars": 0,
+   "pushed_at": "2025-09-12"
+  },
+  {
+   "name": "story-composer",
+   "description": "",
+   "language": "JavaScript",
+   "stars": 0,
+   "pushed_at": "2025-09-01"
+  },
+  {
+   "name": "Image-caption-generator",
+   "description": "",
+   "language": "Jupyter Notebook",
+   "stars": 0,
+   "pushed_at": "2025-09-01"
+  },
+  {
+   "name": "Story-Generator",
+   "description": "",
+   "language": "Python",
+   "stars": 0,
+   "pushed_at": "2025-08-30"
+  },
+  {
+   "name": "fend",
+   "description": "",
+   "language": "CSS",
+   "stars": 0,
+   "pushed_at": "2025-08-05"
+  },
+  {
+   "name": "legal-doc",
+   "description": "",
+   "language": "JavaScript",
+   "stars": 0,
+   "pushed_at": "2025-05-26"
+  },
+  {
+   "name": "Simple-RNN-IMDB-",
+   "description": "",
+   "language": "Jupyter Notebook",
+   "stars": 0,
+   "pushed_at": "2025-05-24"
+  },
+  {
+   "name": "Network-Security",
+   "description": "",
+   "language": "Python",
+   "stars": 0,
+   "pushed_at": "2025-05-21"
+  },
+  {
+   "name": "ANN-Clasifocation-Churn",
+   "description": "",
+   "language": "Jupyter Notebook",
+   "stars": 0,
+   "pushed_at": "2025-05-17"
+  },
+  {
+   "name": "Healthcare-blockchain-AI-main",
+   "description": "",
+   "language": "JavaScript",
+   "stars": 0,
+   "pushed_at": "2025-05-06"
+  },
+  {
+   "name": "mlproject",
+   "description": "",
+   "language": "Jupyter Notebook",
+   "stars": 0,
+   "pushed_at": "2025-04-18"
+  },
+  {
+   "name": "Legal-Document-Management-System-Modernization",
+   "description": "",
+   "language": "JavaScript",
+   "stars": 0,
+   "pushed_at": "2025-04-09"
+  },
+  {
+   "name": "application",
+   "description": "",
+   "language": null,
+   "stars": 0,
+   "pushed_at": "2025-04-05"
+  },
+  {
+   "name": "git_tutorials",
+   "description": "",
+   "language": null,
+   "stars": 0,
+   "pushed_at": "2025-04-05"
+  },
+  {
+   "name": "git_pract",
+   "description": "",
+   "language": null,
+   "stars": 0,
+   "pushed_at": "2025-03-11"
+  },
+  {
+   "name": "test_forest_fire",
+   "description": "",
+   "language": "Jupyter Notebook",
+   "stars": 0,
+   "pushed_at": "2025-03-09"
+  },
+  {
+   "name": "personalized_learning",
+   "description": "",
+   "language": "TypeScript",
+   "stars": 0,
+   "pushed_at": "2025-03-09"
+  },
+  {
+   "name": "personalized_learning-main",
+   "description": "",
+   "language": null,
+   "stars": 0,
+   "pushed_at": "2024-12-24"
+  },
+  {
+   "name": "Py_Lab",
+   "description": "",
+   "language": "Python",
+   "stars": 0,
+   "pushed_at": "2024-07-08"
   }
  ],
  "calendar": [
