@@ -24,8 +24,8 @@ TOKEN = os.environ.get("ACCESS_TOKEN") or os.environ.get("GITHUB_TOKEN")
 PROFILE = [                       # (label, value) lines under the name header
     ("Name", "Chirag Saha"),
     ("Uptime", "{uptime}"),       # filled with the age of the GitHub account
-    ("Focus", "Data Science & AI/ML"),
-    ("Working on", "ML development"),
+    ("Focus", "Data Science, AI/ML, Backend"),
+    ("Working on", "ML + backend development"),
     ("Learning", "Data science"),
     ("Stack", "Python, PyTorch, TensorFlow, MySQL"),
 ]
